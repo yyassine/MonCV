@@ -1,0 +1,49 @@
+html , button , input , select , textarea {
+  color: #444;
+}
+
+html {
+  background: #b34d4d;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+body{
+	background-color: #ce1a1a;  
+}
+#wrapper {
+  max-width: 900px;
+  min-width: 320px;
+  margin: auto;
+
+}
+
+header{
+  border-radius: 3px;
+  color: #ccc ;
+  box-shadow: 0  2px 4px rgba(0, 0, 0, .2);
+  margin-bottom: 20px; 
+  background-color: #ffffff; 
+
+}
+
+img {
+  float: right;
+
+}
+.list-group-item{
+  background-color: #ce1a1a;
+}
+.foot {
+  margin: auto;
+  background-color: #ce1a1a;
+}
+
+h1 {
+  font-family: alegreya, serif;
+}
+
+section h3 {
+
+border-bottom: 1px solid  black;
+}
