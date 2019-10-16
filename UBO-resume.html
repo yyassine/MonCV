@@ -22,21 +22,21 @@
       <header>
         <img src="photo.jpg" width="165px" alt="photo de CV" >
         
-          <div class="card-body">
-          		<h1>BOUJIDA Yassine</h1><br>
-          		<i class="fa fa-calendar"></i> Age: 22 ans <br>
-          		<i class="fa fa-address-card"></i> Nationalité: Marocain <br>
-          		<i class="fa fa-home"></i> Adresse: 2, Rue des Archives <br>
-          		<i class="fa fa-phone"></i> Tel: +33 6 89 46 46 87 <br>
-          		<i class="fa fa-envelope"></i> Mail: yassine.boujida@gmail.com <br>
+          <div class="card-body" itemscope itemtype="http://schema.org/person" >
+          		<h1 itemprop="name">BOUJIDA Yassine</h1><br>
+          		<i class="fa fa-calendar" itemprop="birthDate" ></i> Age: 22 ans <br>
+          		<i class="fa fa-address-card" itemprop="nationality" ></i> Nationalité: Marocain <br>
+          		<i class="fa fa-home" itemprop="Adresse"></i> Adresse: 2, Rue des Archives <br>
+          		<i class="fa fa-phone" itemprop="telephone"></i> Tel: +33 6 89 46 46 87 <br>
+          		<i class="fa fa-envelope" itemprop="email"></i> Mail: yassine.boujida@gmail.com <br>
           </div>
       
       </header> 
-      <section> 
-        <h3>FORMATION</h3>
+      <section itemscope itemtype="https://schema.org/docs"> 
+        <h3 itemprop="EducationalOrganization">FORMATION</h3>
         <dl>
           <dt>2019 – 2020</dt>
-          <dd>
+          <dd itemprop="CollegeOrUniversity">
             - Master Développement Logiciel des
             Systèmes D’Information
             Université de Bretagne Occidentale
@@ -44,7 +44,7 @@
         </dl>
         <dl>
           <dt>2019</dt>
-          <dd>
+          <dd itemprop="CollegeOrUniversity">
             - Ingénieur génie informatique et
             traitement des données
             Ecole Nationale des Sciences
@@ -53,17 +53,17 @@
         </dl>
         <dl>
           <dt>2015</dt>
-          <dd>
+          <dd itemprop="HighSchool">
             - Baccalauréat
             Sciences Mathématiques
           </dd>
         </dl>
       </section>
       <section>
-        <h3>EXPÉRIENCES PROFESSIONNELLES </h3>    
+        <h3 itemscope itemtype="EXPÉRIENCES">EXPÉRIENCES PROFESSIONNELLES</h3>    
         <article>
           <h4> - Stages :</h4>
-          <p> <dt> 2018 </dt>
+          <p itemprop="Stage"> <dt> 2018 </dt>
             - Stage d’initiation d’un mois au sein du
             Groupe Banque Populaire : Etude sur les
             protocoles de la sécurité informatique et
@@ -72,33 +72,33 @@
         </article> 
         <article>
           <h4> - Projets:</h4>
-              <p> <dt> 2019 </dt>
+              <p itemprop="Projet"> <dt> 2019 </dt>
                 - Mise en place d’un système informatique
                 pour une clinique dentaire (JAVA)              
               </p>
-              <p> <dt> 2019 </dt>
+              <p itemprop="Projet"> <dt> 2019 </dt>
                 - Création d’un site de la gestion des clubs et
                 évènements à l’ENSA de Tanger
               </p>              
         </article> 
         <article>
           <h4> – Participation :</h4>
-              <p> <dt> 2018 </dt>
+              <p itemprop="Participation"> <dt> 2018 </dt>
                 - Compétition de programmation régionale « CODE IT » à l’EHTP 2019 
               </p>
-              <p> <dt> 2018 </dt>
+              <p itemprop="Participation"> <dt> 2018 </dt>
                 - Compétition de programmation nationale MCPC 
               </p>
         </article>
        </section>
         <section> 
-        <h3>COMPETENCES</h3>
+        <h3 itemscope itemtype="COMPETENCES">COMPETENCES</h3>
         <dl>
           <dt>Langages :</dt>
           <dd style="width:1200 px;">
               <ul style="list-style-type:none;">
-                <li>HTML , CSS , PHP , JS , Angular</li>
-                <li>C, C++, JAVA , SQL , JEE</li>
+                <li itemprop="programmationWeb">HTML , CSS , PHP , JS , Angular</li>
+                <li itemprop="programmationDekstop">C, C++, JAVA , SQL , JEE</li>
               </ul>
           </dd>
         </dl>
@@ -116,11 +116,11 @@
         </dl>        
       </section> 
         <section>
-          <h3>LANGUES</h3>
+          <h3 itemscope itemtype="https://schema.org/Language">LANGUES</h3>
           <ul style="list-style-type:none;">
-              <li>- Arabe (Maternelle)</li>
-              <li>- Français (C1)</li>
-              <li>- Anglais (B2)</li>
+              <li itemprop="name">- Arabe (Maternelle)</li>
+              <li itemprop="name">- Français (C1)</li>
+              <li itemprop="name">- Anglais (B2)</li>
             </ul>
         </section>  
         <section>
@@ -132,13 +132,13 @@
             </ul> 
         </section>                    
       <footer>
-        <div class="card foot"  style="width: 57rem;" >
+        <div class="card foot"  style="width: 57rem;"itemscope itemtype="https://schema.org/SocialMediaPosting" >
             <div class="card-body foot">              
                 <ul class="list-group list-group-horizontal listfoot">
-                  <li class="list-group-item"><a href="index.html"><i class="fa fa-facebook-square"></i> Facebook</a></li>
-                  <li class="list-group-item"><a href="contact.html"><i class="fa fa-twitter-square"></i> Twitter</a></li>
-                  <li class="list-group-item"><a href="index.html"><i class="fa fa-git-square"></i> GitHub</a></li>
-                  <li class="list-group-item"><a href="index.html"><i class="fa fa-linkedin-square"></i> LinkedIn</a></li>
+                  <li class="list-group-item" itemprop="name"><a href="index.html"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+                  <li class="list-group-item" itemprop="name"><a href="contact.html"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+                  <li class="list-group-item" itemprop="name"><a href="index.html"><i class="fa fa-git-square"></i> GitHub</a></li>
+                  <li class="list-group-item" itemprop="name"><a href="index.html"><i class="fa fa-linkedin-square"></i> LinkedIn</a></li>
                 </ul>              
             </div>        
         </div>
